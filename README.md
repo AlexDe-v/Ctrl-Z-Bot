@@ -1,10 +1,13 @@
-# Ctrl-Z-Bot 
+# Ctrl-Z-Bot
 This bot can undo things via a command like channels deletes, role changes and bans.
-
 This will also undo channel overwrites
 
-### How does it work ❓?
+### How does it work ❓
 The bot scanns the audit log of a user and creates button prompts to undo stuff
+
+### Requirements 🪐:
+- Python
+- Made and tested on Pycord NOT discord.py
 
 ### Limitations 😒:
 - The audit log can't display everything!
